@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     background-color: #0A090A;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -380,7 +381,10 @@ color:#FF8F27;
          display: none;
      }
      .tabs-item {
-         flex-basis: 40%;
+         flex-basis: 60%;         
+     }
+     .tabs-item:last-child {
+         display: none;
      }
      .short-info {
          margin-bottom: 5%; 
@@ -391,5 +395,16 @@ color:#FF8F27;
      .play {
          margin-top: 15px;
      }
-
+    .poster {
+        display: inline-block;
+        width: 100%;
+        margin-top: -20%;
+    }
+    .button {
+        width: 100%;
+    }
+    .all-actors {
+        margin-left: -17px;
+        font-size: 14px;        
+    }
 }
