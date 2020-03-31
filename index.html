@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">    
+    <title>Бэтмен 2021 год</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header animated bounceInRight">
+            <div class="logo">КиноПульс</div>
+            <form action="" class="search">
+                <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+                <button type="submit" class="search-button">
+                    <img src="img/search-icon.svg" alt="">
+                </button>           
+            </form>
+            <div class="user">
+                <img src="img/bookmark.svg" alt="bookmark">
+                <img src="img/avatar.jpg" alt="" class="avatar">
+            </div>
+        </header>        
+        
+        <main class="main">
+            <h1 class="title animated fadeInRightBig">Бэтмен</h1>
+            <small class="title-en animated fadeInLeftBig">The Batman</small>
+            <div class="info">
+                <div class="movie-info animated fadeInDown delay-2s">
+                    <span class="tag">Фильм</span>
+                    <span class="country">США, 2021 год</span>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg" class="play">Смотреть трейлер</a>
+                    <a data-fancybox href="https://youtu.be/hWqysdy9tvA?t=3" class="play" id="mops">Вызвать Бэтмена</a>
+                </div>
+                <a href="#" class="more">Подробнее</a>
+            </div>
+            <div class="content animated bounceInUp delay-3s">
+                <!-- short info START -->
+                <div class="short-info">
+                    <img src="img/cover.jpg" alt="poster" class="poster">
+                    <button class="button">Буду смотреть</button>
+                    <h3 class="actors-title">В главных ролях:</h3>
+                    <ul class="actors-list">
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/544406/" target="_blank"">Роберт Паттинсон</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/1142215/" target="_blank"">Зои Кравиц</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/373/" target="_blank"">Колин Фаррелл</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/32953/" target="_blank"">Питер Сарсгаард</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/43219/" target="_blank"">Пол Дано</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/13176/" target="_blank"">Энди Серкис</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/518/" target="_blank"">Джеффри Райт</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/808/" target="_blank"">Джон Туртурро</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/1637217/" target="_blank"">Макс Карвер</a></li>
+                        <li class="actors-list-item"><a href="https://www.kinopoisk.ru/name/63855/" target="_blank"">Кон О’Нилл</a></li>
+                    </ul>
+                </div>
+                <!-- full info START -->
+                <div class="full-info">
+                    <nav class="tabs">
+                        <a href="#about" class="tabs-item">Описание</a>
+                        <a href="#reviews" class="tabs-item">Рецензии</a>
+                        <a href="#premier" class="tabs-item">Премьеры</a>
+                        <a href="#actors" class="tabs-item">Актеры</a>
+                        <a href="#" class="tabs-item">Награды</a>
+                        <a href="#" class="tabs-item">Факты</a>
+                        <a href="#" class="tabs-item">Сайты</a>
+                        <a href="#" class="tabs-item">
+                            <img src="img/bookmark-icon.svg" alt="bookmark" class="bookmark-added">
+                        </a>
+                    </nav>
+
+                    <div class="full-content">
+                        <div class="tabs-content visible" id="about">
+                            <p class="text">Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.</p>
+                            <p class="text">Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон</p>
+                            <h4 class="text-title">Разработка</h4>
+                            <p class="text">В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом.</p>
+                            <p class="text">После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря.</p>
+                            <p class="text">На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма</p>
+                        </div>
+                        <div class="tabs-content" id="reviews">
+                            <p class="text">
+                                Как сейчас помню, раньше мне казалось, что Кристофер Нолан сделал два фильма про похождения Человека-летучей мыши. Не только из-за объединяющего названия «Темный рыцарь», но из-за какой-никакой установленной цепочки событий. Потому что за 50 лет фильмы про Бэтмена, несмотря на заявленную связь всегда мною воспринимались, как отдельные киноленты. Так можно было закрыть сюжетные дыры насчет внешности главного героя и разного стиля Готэма. Но нет, «Бэтмен: Начало» подразумевается, как начало истории, которое не идет по традиционным канонам супергероики, и было несправедливо упущено.</p>
+                        </div>
+                        <div class="tabs-content" id="premier">
+                            <p>Премьера в США:	25.06.2021</p>
+                            <p>Премьера в мире:	25.06.2021</p>
+                            <p>Премьера в Росии: 24.06.2021</p>
+                        </div>
+                        <div class="tabs-content" id="actors">
+                            <ol>
+                                <li>Роберт Паттинсон (Robert Pattinson)</li>
+                                <li>Зои Кравиц (Zoe Kravitz)</li>
+                                <li>Энди Серкис (Andy Serkis)</li>
+                                <li>Колин Фаррелл (Colin Farrell)</li>
+                                <li>Пол Дано (Paul Dano)</li>
+                                <li>Джеффри Райт (Jeffrey Wright)</li>
+                                <li>Питер Сарсгаард (Peter Sarsgaard)</li>
+                                <li>Джон Туртурро (John Turturro)</li>
+                                <li>Кон О’Нилл (Con O'Neill)</li>
+                                <li>Макс Карвер (Max Carver)</li>
+                                <li>Чарли Карвер (Charlie Carver)</li>
+                                <li>Алекс Фернс (Alex Ferns)</li>
+                                <li>Марк Киллин (Mark Killeen)</li>
+                                <li>Эми Клер Билс (Amy Clare Beales)</li>
+                                <li>Бернард Коллако (Bernard Collaco)</li>
+                                <li>Эллиот Уоррен (Elliot Warren)</li>
+                                <li>Jayme Lawson Jayme Lawson</li>
+                                <li>Джил Перес-Абрахам (Gil Perez-Abraham)</li>
+                                <li>Вик Вэгхорн (Vic Waghorn)</li>
+                                <li>Paul Whelligan</li>
+                                <li>Родриг Андрисан (Rodrig Andrisan)</li>
+                                <li>Тони Маккарти (Tony McCarthy)</li>
+                            </ol>                            
+                        </div>
+                        <div class="tabs-content" id="actors">
+                            
+                        </div>
+                        <div class="tabs-content" id="facts">
+                            
+                        </div>
+                        <div class="tabs-content" id="sites">
+                            
+                        </div>
+                        <div class="subscribe">
+                            <h3 class="subscribe-title">Подпишитесь на обновления</h3>
+                            <form action="#" class="subscribe-form">                                
+                                <input type="text" placeholder="Ваш e-mail" class="mail-input">
+                                <button type="submit" class="subscribe-button">
+                                    <img src="img/check.svg" alt="check">
+                                </button>
+                            </form>
+                            <a href="#" class="banner">
+                                <img src="img/banner.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
